@@ -1,0 +1,21 @@
+.add-sec{
+    width: 100%;
+    display: flex;
+    margin-block: 20px;
+}
+.add-input{
+    width: 100%;
+    margin-right: 3px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.3 );
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px 8px;
+}
+.add-btn{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}

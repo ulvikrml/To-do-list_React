@@ -1,0 +1,9 @@
+.todo-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.clear-btn{
+    padding: 5px 7px;
+}

@@ -1,0 +1,21 @@
+.list-item{
+    list-style: none;
+    margin-bottom: 7px;
+    width: 100%;
+    background: #F2F2F2;
+    padding: 8px 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-item-text{
+    font-size: 16px;
+    display: inline-block;
+}
+.delete-item{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-right: 4px;
+    cursor: pointer;
+}

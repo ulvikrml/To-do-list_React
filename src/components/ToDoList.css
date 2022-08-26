@@ -1,0 +1,17 @@
+.todo-container{
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:500px){
+    .todo-container{
+        width: 90% !important;
+    }
+}
