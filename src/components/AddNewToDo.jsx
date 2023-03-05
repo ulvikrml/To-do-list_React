@@ -10,12 +10,13 @@ function AddNewToDo(props) {
 
     const addElementHandler = (e) => {
         e.preventDefault();
-        if(toDoElement.length === 0){
+        if(toDoElement.trim().length === 0){
+            setToDoElement('')
             return;
         }
+
         props.setToDoItems({info: toDoElement.trim(), id: Math.floor(Math.random()*10000)});
         setToDoElement('');
-
     }
 
     return (

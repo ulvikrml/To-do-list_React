@@ -13,7 +13,6 @@ function ToDoList() {
   }
   const localStorageItems = (set) => {
     localStorage.setItem('data', JSON.stringify(set));
-
   }
   const deleteItem = (id) => {
     setItems(items.filter(data => data.id !== id));
@@ -25,7 +24,7 @@ function ToDoList() {
     setItems([]);
     localStorageItems([])
   }
-
+  
   useEffect(() => {
     if (!(items.length === 0)) {
       localStorageItems(items)
